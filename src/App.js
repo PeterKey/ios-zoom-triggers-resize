@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   const handleResize = () => {
+    console.log('Resize Event Triggered with following dimensions:')
     console.log({ width: window.innerWidth, height: window.innerHeight })
   }
 
