@@ -1,0 +1,1 @@
+# ios-zoom-triggers-resize
