@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -14,18 +13,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          1. Connect to iOS device via Safari Developer Menu.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          2. Observe console outputs.
+        </p>
+        <p>
+          3. Pinch Zoom substantially
+        </p>
+        <p>
+          4. Is width and height updated?
+        </p>
       </header>
     </div>
   );
